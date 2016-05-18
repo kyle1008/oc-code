@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nrd-eQ-nc4">
+                                <rect key="frame" x="53" y="88" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.30588163769999999" green="0.50638292549999997" blue="0.91089250649999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSN-X0-SpG">
+                                <rect key="frame" x="33" y="440" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.39187707210411871" green="0.94238835708999213" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="位移"/>
+                                <connections>
+                                    <action selector="move:" destination="BYZ-38-t0r" eventType="touchUpInside" id="56l-LB-vc9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOw-uF-XOI">
+                                <rect key="frame" x="106" y="440" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.73047617601000225" green="0.88271300085931492" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="放大"/>
+                                <connections>
+                                    <action selector="scale1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mmb-9X-36o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTN-6o-sPO">
+                                <rect key="frame" x="176" y="440" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.58505476586447136" green="0.49501118958051094" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="缩小"/>
+                                <connections>
+                                    <action selector="scale:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5BG-u2-rXB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ye-y6-0yf">
+                                <rect key="frame" x="106" y="493" width="30" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.3077641657680088" blue="0.42159545652312658" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="重置"/>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IHP-Em-NEA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifn-57-v6y">
+                                <rect key="frame" x="38" y="490" width="30" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.37390471637192246" blue="0.78658170560609797" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="旋转"/>
+                                <connections>
+                                    <action selector="rotate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QS6-wN-X0W"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="view1" destination="Nrd-eQ-nc4" id="WdS-Gc-Fkz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="216" y="224"/>
+        </scene>
+    </scenes>
+</document>

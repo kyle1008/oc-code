@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LRF-HG-kIz">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vcl-23-or1">
+                    <rect key="frame" x="90" y="156" width="488" height="66"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wIE-Ax-TQ6">
+                            <rect key="frame" x="180" y="141" width="240" height="128"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bry-QJ-PmA">
+                            <rect key="frame" x="40" y="18" width="30" height="30"/>
+                            <state key="normal" title="取消"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UeC-f9-gpa">
+                            <rect key="frame" x="400" y="18" width="30" height="30"/>
+                            <state key="normal" title="确定"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.76541537569999996" green="1" blue="0.46846118380000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="wIE-Ax-TQ6"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vcl-23-or1" firstAttribute="top" secondItem="LRF-HG-kIz" secondAttribute="top" constant="156" id="8cm-mG-E3t"/>
+                <constraint firstAttribute="bottom" secondItem="vcl-23-or1" secondAttribute="bottom" constant="156" id="9uM-JS-fPe"/>
+                <constraint firstAttribute="trailing" secondItem="vcl-23-or1" secondAttribute="trailing" constant="90" id="J54-4Z-mGa"/>
+                <constraint firstItem="vcl-23-or1" firstAttribute="leading" secondItem="LRF-HG-kIz" secondAttribute="leading" constant="90" id="lGv-xp-YYk"/>
+            </constraints>
+            <point key="canvasLocation" x="399" y="113"/>
+        </view>
+    </objects>
+</document>

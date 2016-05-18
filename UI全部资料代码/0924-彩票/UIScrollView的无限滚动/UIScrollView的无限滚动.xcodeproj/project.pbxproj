@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB46FE71AC3D1FD0051BCF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB46FE61AC3D1FD0051BCF7 /* main.m */; };
+		ECB46FEA1AC3D1FD0051BCF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB46FE91AC3D1FD0051BCF7 /* AppDelegate.m */; };
+		ECB46FED1AC3D1FD0051BCF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB46FEC1AC3D1FD0051BCF7 /* ViewController.m */; };
+		ECB46FF01AC3D1FD0051BCF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB46FEE1AC3D1FD0051BCF7 /* Main.storyboard */; };
+		ECB46FF21AC3D1FD0051BCF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB46FF11AC3D1FD0051BCF7 /* Images.xcassets */; };
+		ECB46FF51AC3D1FD0051BCF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB46FF31AC3D1FD0051BCF7 /* LaunchScreen.xib */; };
+		ECB470011AC3D1FD0051BCF7 /* UIScrollView_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB470001AC3D1FD0051BCF7 /* UIScrollView_____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB46FFB1AC3D1FD0051BCF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB46FD91AC3D1FD0051BCF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB46FE01AC3D1FD0051BCF7;
+			remoteInfo = "UIScrollView的无限滚动";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB46FE11AC3D1FD0051BCF7 /* UIScrollView的无限滚动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIScrollView的无限滚动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB46FE51AC3D1FD0051BCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB46FE61AC3D1FD0051BCF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECB46FE81AC3D1FD0051BCF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECB46FE91AC3D1FD0051BCF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECB46FEB1AC3D1FD0051BCF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECB46FEC1AC3D1FD0051BCF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECB46FEF1AC3D1FD0051BCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB46FF11AC3D1FD0051BCF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECB46FF41AC3D1FD0051BCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECB46FFA1AC3D1FD0051BCF7 /* UIScrollView的无限滚动Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView的无限滚动Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB46FFF1AC3D1FD0051BCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB470001AC3D1FD0051BCF7 /* UIScrollView_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB46FDE1AC3D1FD0051BCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB46FF71AC3D1FD0051BCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB46FD81AC3D1FD0051BCF7 = {
+			isa = PBXGroup;
+			children = (
+				ECB46FE31AC3D1FD0051BCF7 /* UIScrollView的无限滚动 */,
+				ECB46FFD1AC3D1FD0051BCF7 /* UIScrollView的无限滚动Tests */,
+				ECB46FE21AC3D1FD0051BCF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB46FE21AC3D1FD0051BCF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB46FE11AC3D1FD0051BCF7 /* UIScrollView的无限滚动.app */,
+				ECB46FFA1AC3D1FD0051BCF7 /* UIScrollView的无限滚动Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB46FE31AC3D1FD0051BCF7 /* UIScrollView的无限滚动 */ = {
+			isa = PBXGroup;
+			children = (
+				ECB46FE81AC3D1FD0051BCF7 /* AppDelegate.h */,
+				ECB46FE91AC3D1FD0051BCF7 /* AppDelegate.m */,
+				ECB46FEB1AC3D1FD0051BCF7 /* ViewController.h */,
+				ECB46FEC1AC3D1FD0051BCF7 /* ViewController.m */,
+				ECB46FEE1AC3D1FD0051BCF7 /* Main.storyboard */,
+				ECB46FF11AC3D1FD0051BCF7 /* Images.xcassets */,
+				ECB46FF31AC3D1FD0051BCF7 /* LaunchScreen.xib */,
+				ECB46FE41AC3D1FD0051BCF7 /* Supporting Files */,
+			);
+			path = "UIScrollView的无限滚动";
+			sourceTree = "<group>";
+		};
+		ECB46FE41AC3D1FD0051BCF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB46FE51AC3D1FD0051BCF7 /* Info.plist */,
+				ECB46FE61AC3D1FD0051BCF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB46FFD1AC3D1FD0051BCF7 /* UIScrollView的无限滚动Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB470001AC3D1FD0051BCF7 /* UIScrollView_____Tests.m */,
+				ECB46FFE1AC3D1FD0051BCF7 /* Supporting Files */,
+			);
+			path = "UIScrollView的无限滚动Tests";
+			sourceTree = "<group>";
+		};
+		ECB46FFE1AC3D1FD0051BCF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB46FFF1AC3D1FD0051BCF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB46FE01AC3D1FD0051BCF7 /* UIScrollView的无限滚动 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB470041AC3D1FD0051BCF7 /* Build configuration list for PBXNativeTarget "UIScrollView的无限滚动" */;
+			buildPhases = (
+				ECB46FDD1AC3D1FD0051BCF7 /* Sources */,
+				ECB46FDE1AC3D1FD0051BCF7 /* Frameworks */,
+				ECB46FDF1AC3D1FD0051BCF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIScrollView的无限滚动";
+			productName = "UIScrollView的无限滚动";
+			productReference = ECB46FE11AC3D1FD0051BCF7 /* UIScrollView的无限滚动.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB46FF91AC3D1FD0051BCF7 /* UIScrollView的无限滚动Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB470071AC3D1FD0051BCF7 /* Build configuration list for PBXNativeTarget "UIScrollView的无限滚动Tests" */;
+			buildPhases = (
+				ECB46FF61AC3D1FD0051BCF7 /* Sources */,
+				ECB46FF71AC3D1FD0051BCF7 /* Frameworks */,
+				ECB46FF81AC3D1FD0051BCF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB46FFC1AC3D1FD0051BCF7 /* PBXTargetDependency */,
+			);
+			name = "UIScrollView的无限滚动Tests";
+			productName = "UIScrollView的无限滚动Tests";
+			productReference = ECB46FFA1AC3D1FD0051BCF7 /* UIScrollView的无限滚动Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB46FD91AC3D1FD0051BCF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yz;
+				TargetAttributes = {
+					ECB46FE01AC3D1FD0051BCF7 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					ECB46FF91AC3D1FD0051BCF7 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ECB46FE01AC3D1FD0051BCF7;
+					};
+				};
+			};
+			buildConfigurationList = ECB46FDC1AC3D1FD0051BCF7 /* Build configuration list for PBXProject "UIScrollView的无限滚动" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB46FD81AC3D1FD0051BCF7;
+			productRefGroup = ECB46FE21AC3D1FD0051BCF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB46FE01AC3D1FD0051BCF7 /* UIScrollView的无限滚动 */,
+				ECB46FF91AC3D1FD0051BCF7 /* UIScrollView的无限滚动Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB46FDF1AC3D1FD0051BCF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB46FF01AC3D1FD0051BCF7 /* Main.storyboard in Resources */,
+				ECB46FF51AC3D1FD0051BCF7 /* LaunchScreen.xib in Resources */,
+				ECB46FF21AC3D1FD0051BCF7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB46FF81AC3D1FD0051BCF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB46FDD1AC3D1FD0051BCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB46FED1AC3D1FD0051BCF7 /* ViewController.m in Sources */,
+				ECB46FEA1AC3D1FD0051BCF7 /* AppDelegate.m in Sources */,
+				ECB46FE71AC3D1FD0051BCF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB46FF61AC3D1FD0051BCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB470011AC3D1FD0051BCF7 /* UIScrollView_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB46FFC1AC3D1FD0051BCF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB46FE01AC3D1FD0051BCF7 /* UIScrollView的无限滚动 */;
+			targetProxy = ECB46FFB1AC3D1FD0051BCF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB46FEE1AC3D1FD0051BCF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB46FEF1AC3D1FD0051BCF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB46FF31AC3D1FD0051BCF7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB46FF41AC3D1FD0051BCF7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB470021AC3D1FD0051BCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECB470031AC3D1FD0051BCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB470051AC3D1FD0051BCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIScrollView的无限滚动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECB470061AC3D1FD0051BCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIScrollView的无限滚动/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECB470081AC3D1FD0051BCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIScrollView的无限滚动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView的无限滚动.app/UIScrollView的无限滚动";
+			};
+			name = Debug;
+		};
+		ECB470091AC3D1FD0051BCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIScrollView的无限滚动Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIScrollView的无限滚动.app/UIScrollView的无限滚动";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB46FDC1AC3D1FD0051BCF7 /* Build configuration list for PBXProject "UIScrollView的无限滚动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB470021AC3D1FD0051BCF7 /* Debug */,
+				ECB470031AC3D1FD0051BCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB470041AC3D1FD0051BCF7 /* Build configuration list for PBXNativeTarget "UIScrollView的无限滚动" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB470051AC3D1FD0051BCF7 /* Debug */,
+				ECB470061AC3D1FD0051BCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB470071AC3D1FD0051BCF7 /* Build configuration list for PBXNativeTarget "UIScrollView的无限滚动Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB470081AC3D1FD0051BCF7 /* Debug */,
+				ECB470091AC3D1FD0051BCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB46FD91AC3D1FD0051BCF7 /* Project object */;
+}

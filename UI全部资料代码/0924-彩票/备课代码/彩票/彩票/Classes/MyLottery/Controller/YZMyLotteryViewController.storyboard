@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cuT-d3-mPE">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--My Lottery View Controller-->
+        <scene sceneID="R8c-Lf-SEN">
+            <objects>
+                <viewController id="cuT-d3-mPE" customClass="YZMyLotteryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ur5-6u-WN5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q5F-zP-HkR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gqS-jw-fBc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="bgk-mh-iyM">
+                                <rect key="frame" x="36" y="38" width="302" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="KZp-qm-Xuw"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoE-D3-IXV">
+                                <rect key="frame" x="36" y="319" width="302" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SUc-Wb-Ghk"/>
+                                </constraints>
+                                <state key="normal" title="登录" backgroundImage="RedButton">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bgk-mh-iyM" secondAttribute="trailing" constant="37" id="8s0-uE-j6g"/>
+                            <constraint firstAttribute="trailing" secondItem="WoE-D3-IXV" secondAttribute="trailing" constant="37" id="8zb-ZH-ycZ"/>
+                            <constraint firstItem="bgk-mh-iyM" firstAttribute="leading" secondItem="gqS-jw-fBc" secondAttribute="leading" constant="36" id="GDP-70-sdP"/>
+                            <constraint firstItem="WoE-D3-IXV" firstAttribute="top" secondItem="bgk-mh-iyM" secondAttribute="bottom" constant="65" id="H1w-IO-2ga"/>
+                            <constraint firstItem="bgk-mh-iyM" firstAttribute="top" secondItem="ur5-6u-WN5" secondAttribute="bottom" constant="18" id="Lrt-sO-pbo"/>
+                            <constraint firstItem="WoE-D3-IXV" firstAttribute="leading" secondItem="gqS-jw-fBc" secondAttribute="leading" constant="36" id="XvY-Kx-ngY"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="loginButton" destination="WoE-D3-IXV" id="pyW-2Q-5zC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XD2-qw-B8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171.5" y="468.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LoginScreen" width="296" height="138"/>
+        <image name="RedButton" width="61" height="34"/>
+    </resources>
+</document>
